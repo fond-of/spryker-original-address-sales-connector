@@ -10,7 +10,7 @@
   ],
   "require": {
     "php": ">=7.1",
-    "spryker/sales": "dev-master",
+    "fond-of-spryker/sales": "dev-master",
     "fond-of-spryker/jellyfish": "dev-master"
   },
   "require-dev": {

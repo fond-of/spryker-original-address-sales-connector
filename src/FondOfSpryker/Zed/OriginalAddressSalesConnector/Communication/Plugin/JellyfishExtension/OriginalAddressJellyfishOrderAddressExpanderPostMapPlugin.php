@@ -1,8 +1,8 @@
 <?php
 
-namespace FondOfSpryker\Zed\OriginalAddressSalesConnector\Communication\Plugin\Jellyfish;
+namespace FondOfSpryker\Zed\OriginalAddressSalesConnector\Communication\Plugin\JellyfishExtension;
 
-use FondOfSpryker\Zed\Jellyfish\Dependency\Plugin\JellyfishOrderAddressExpanderPostMapPluginInterface;
+use FondOfSpryker\Zed\JellyfishExtension\Dependency\Plugin\JellyfishOrderAddressExpanderPostMapPluginInterface;
 use Generated\Shared\Transfer\JellyfishOrderAddressTransfer;
 use Orm\Zed\Sales\Persistence\SpySalesOrderAddress;
 use Spryker\Zed\Kernel\Communication\AbstractPlugin;

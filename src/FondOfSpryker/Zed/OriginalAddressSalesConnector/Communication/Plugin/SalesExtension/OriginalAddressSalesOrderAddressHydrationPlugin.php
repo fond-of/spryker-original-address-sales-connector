@@ -1,8 +1,8 @@
 <?php
 
-namespace FondOfSpryker\Zed\OriginalAddressSalesConnector\Communication\Plugin\Sales;
+namespace FondOfSpryker\Zed\OriginalAddressSalesConnector\Communication\Plugin\SalesExtension;
 
-use FondOfSpryker\Zed\Sales\Dependency\Plugin\SalesOrderAddressHydrationPluginInterface;
+use FondOfSpryker\Zed\SalesExtension\Dependency\Plugin\SalesOrderAddressHydrationPluginInterface;
 use Generated\Shared\Transfer\AddressTransfer;
 use Orm\Zed\Sales\Persistence\SpySalesOrderAddress;
 use Spryker\Zed\Kernel\Communication\AbstractPlugin;
@@ -10,7 +10,7 @@ use Spryker\Zed\Kernel\Communication\AbstractPlugin;
 class OriginalAddressSalesOrderAddressHydrationPlugin extends AbstractPlugin implements SalesOrderAddressHydrationPluginInterface
 {
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      *
      * @api
      *

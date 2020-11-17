@@ -10,7 +10,7 @@ use Spryker\Zed\Kernel\Communication\AbstractPlugin;
 class OriginalAddressJellyfishOrderAddressExpanderPostMapPlugin extends AbstractPlugin implements JellyfishOrderAddressExpanderPostMapPluginInterface
 {
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      *
      * @api
      *

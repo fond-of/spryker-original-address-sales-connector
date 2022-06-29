@@ -25,13 +25,13 @@ class OriginalAddressSalesOrderAddressHydrationPlugin extends AbstractPlugin imp
     ): SpySalesOrderAddress {
         if ($addressTransfer->getIdCustomerAddress() !== null) {
             return $salesOrderAddressEntity->setFkResourceCustomerAddress(
-                $addressTransfer->getIdCustomerAddress()
+                $addressTransfer->getIdCustomerAddress(),
             );
         }
 
         if ($addressTransfer->getIdCompanyUnitAddress() !== null) {
             return $salesOrderAddressEntity->setFkResourceCompanyUnitAddress(
-                $addressTransfer->getIdCompanyUnitAddress()
+                $addressTransfer->getIdCompanyUnitAddress(),
             );
         }
 

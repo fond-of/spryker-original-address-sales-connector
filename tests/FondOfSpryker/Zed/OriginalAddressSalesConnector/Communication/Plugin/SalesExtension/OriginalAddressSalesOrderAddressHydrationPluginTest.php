@@ -59,7 +59,7 @@ class OriginalAddressSalesOrderAddressHydrationPluginTest extends Unit
 
         $spySalesOrderAddress = $this->originalAddressSalesOrderAddressHydrationPlugin->hydrate(
             $this->addressTransferMock,
-            $this->spySalesOrderAddressMock
+            $this->spySalesOrderAddressMock,
         );
 
         $this->assertEquals($this->spySalesOrderAddressMock, $spySalesOrderAddress);
@@ -91,7 +91,7 @@ class OriginalAddressSalesOrderAddressHydrationPluginTest extends Unit
 
         $spySalesOrderAddress = $this->originalAddressSalesOrderAddressHydrationPlugin->hydrate(
             $this->addressTransferMock,
-            $this->spySalesOrderAddressMock
+            $this->spySalesOrderAddressMock,
         );
 
         $this->assertEquals($this->spySalesOrderAddressMock, $spySalesOrderAddress);
@@ -121,7 +121,7 @@ class OriginalAddressSalesOrderAddressHydrationPluginTest extends Unit
 
         $spySalesOrderAddress = $this->originalAddressSalesOrderAddressHydrationPlugin->hydrate(
             $this->addressTransferMock,
-            $this->spySalesOrderAddressMock
+            $this->spySalesOrderAddressMock,
         );
 
         $this->assertEquals($this->spySalesOrderAddressMock, $spySalesOrderAddress);
